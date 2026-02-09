@@ -20,6 +20,8 @@
 
   --px-base: 1rem;
   --px-lg: 2rem;
+  --py-base: 1rem;
+  --py-lg: 2rem;
 }
 
 body {
@@ -53,8 +55,6 @@ img {
 @media (width >= 80em) {
   :root {
     --text-lg: bold 2rem/125% var(--font-family);
-    --text-md: .875rem/170% var(--font-family);
-    --text-sm: .75rem/150% var(var(--font-family));
   }
 
   .container {

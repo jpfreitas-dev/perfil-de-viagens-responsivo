@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.py-base{
+  padding-block: var(--py-base);
+}
+
+.py-lg{
+  padding-block: var(--py-lg);
+}
